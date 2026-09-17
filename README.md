@@ -28,12 +28,12 @@ Royal-Strikers/
 |---|---|
 | **Hyper-Luxury UI** | Premium dark-mode aesthetic with gold accents, magnetic cursors, smooth scroll (Lenis), and cinematic reveal animations. |
 | **Dynamic Registration Flow** | Smart form that adapts fields dynamically based on the number of players selected (1–15). |
-| **Aadhaar OCR Verification** | Auto-detects age from uploaded Aadhaar images via Tesseract.js to strictly enforce U-18 and Above-18 brackets. |
+| **Identity Verification** | Structured file upload pipeline for School ID and Aadhaar verification ensuring tournament bracket compliance. |
 | **ImgBB Cloud Storage** | Uploaded IDs and Payment proofs are automatically hosted on ImgBB via API, ensuring lightweight payload processing. |
 | **Web3Forms Backend** | Complete roster and image links are securely bundled and sent directly to the admin email without complex backend servers. Includes `botcheck` honeypot for spam protection. |
 | **WhatsApp Integration** | Bypasses mobile popup blockers by generating an explicit button to send the structured roster directly to the admin's WhatsApp. |
 | **UPI Payment Module** | Generates a fully copyable UPI ID and a dynamic QR code modal for instant payments. |
-| **Real-Time Validations** | Custom Toast Notifications system providing instant feedback for file uploads, OCR scanning, and form submission states. |
+| **Real-Time Validations** | Custom Toast Notifications system providing instant feedback for file uploads, verification checks, and form submission states. |
 | **Responsive Design** | Flawless cross-device scaling from 4K desktop monitors down to mobile viewports. |
 
 ---
@@ -41,8 +41,7 @@ Royal-Strikers/
 ## 🛠️ Tech Stack
 
 - **Frontend Core**: HTML5, CSS3, Vanilla JavaScript (ES Modules)
-- **Typography & Animations**: Google Fonts (Cinzel, Outfit), CSS Keyframes, IntersectionObserver
-- **Image Processing**: Tesseract.js (Client-side OCR for Age Verification)
+- **Typography & Animations**: Google Fonts (Cinzel, Outfit), CSS Keyframes, Lenis, Framer Motion
 - **Cloud APIs**: ImgBB API (Image Hosting), Web3Forms API (Email Delivery)
 - **Build & Deploy**: Vite, Vercel
 
