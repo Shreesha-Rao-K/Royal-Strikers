@@ -1,6 +1,9 @@
 # 👑 Royal Strikers
 
-A premium sports club website for **Throwball**, **Volleyball**, and **Badminton** tournaments. Designed with a luxury hyper-modern aesthetic and a robust backend flow.
+A luxury sports club platform for **Throwball**, **Volleyball**, and **Badminton** tournaments. Designed with an ultra-responsive dark-gold aesthetic and an event-driven tournament registration pipeline.
+
+> [!NOTE]
+> **Prototype & Architecture Notice**: Royal Strikers was developed as a rapid event registration prototype for club tournaments. Verification uploads and payment receipts are routed via client-side API integrations (ImgBB and Web3Forms) for demonstration purposes, with zero framework overhead.
 
 🌐 **Live Site**: [royal-strikers-sports-club.vercel.app](https://royal-strikers-rust.vercel.app/)
 
@@ -15,7 +18,7 @@ Royal-Strikers/
 ├── css/
 │   └── styles.css      # All styling (Luxury UI, variables, mobile responsive)
 ├── js/
-│   └── main.js         # Core logic (OCR, Web3Forms, ImgBB, WhatsApp integration)
+│   └── main.js         # Core logic (Registration, Web3Forms, ImgBB, WhatsApp integration)
 ├── README.md           # This file
 └── .gitignore          # Git ignore rules
 ```
@@ -53,7 +56,7 @@ Royal-Strikers/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vihaandk21/Royal-Strikers.git
+   git clone https://github.com/Shreesha-Rao-K/Royal-Strikers.git
    ```
 
 2. Install dependencies (if using Vite):
